@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -137,6 +138,7 @@ footer strong {
   h1 {
     font-size: 28px;
   }
+
   .subtitle {
     font-size: 15px;
   }

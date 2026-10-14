@@ -113,6 +113,11 @@ const starWarsCharacters = [
    Array vuoto "nomi". Con un for, fai push di ogni starWarsCharacters[i].name.
    Stampa "nomi".
 */
+let nomi=[]
+
+for(let )
+
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
