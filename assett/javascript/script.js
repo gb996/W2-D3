@@ -195,7 +195,14 @@ console.log(perColoreOcchi);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let massatotale=0;
+let i = 0;
+ 
+while(i < starWarsCharacters.length , i++){
+massatotale += parseInt(starWarsCharacters[i].mass);
 
+}
+console.log(massatotale)
 
 /* ESERCIZIO 6 — Classifica il carico
    Su massaTotale, switch (true) o if/else if:
@@ -208,12 +215,22 @@ console.log(perColoreOcchi);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+
 /* ESERCIZIO 7 — Robotizza i n/a
    For: per ogni personaggio con gender === "n/a", cambialo in "robot".
    Stampa l'array.
 */
 
+
+for(let i = 0; i< starWarsCharacters.length ; i++){
+if(starWarsCharacters[i].gender === 'n/a')
+	(starWarsCharacters[i].gender === 'robot')
+}
+console.log(i)
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 8 — Più alto e più basso
    For su starWarsCharacters. Trova il personaggio con altezza maggiore e quello con altezza minore.
